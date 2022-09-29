@@ -24,11 +24,11 @@ public class SimpleIOMath {
         System.out.println("* Sit yourself down, take a seat *");
         System.out.println("* All you gotta do is repeat after me *");
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter your name: ");
+        System.out.print("Question 1: What is your name? ");
         name = in.nextLine();
-        System.out.print("Enter your age: ");
+        System.out.print("Question 2: How old are you? ");
         age = in.nextInt();
-        System.out.print("Enter your favorite number: ");
+        System.out.print("Question 3: What is your favorite number? ");
         favNumber = in.nextInt();
         System.out.println("I'm gonna teach you how to sing it out");
         System.out.println("Come on, come on, come on");
@@ -44,7 +44,7 @@ public class SimpleIOMath {
         System.out.println("Your name is: " + name);
         System.out.println("Your age is: " + age);
         System.out.println("At your next birthday, you will turn " + (age + 1));
-        System.out.println("the first prime factor of " + age + " is: " + smallestPrimeFactor(age));
+        System.out.println("The first prime factor of " + age + " is: " + smallestPrimeFactor(age));
         System.out.println("Your favorite number is: " + favNumber);
         System.out.println("Your favorite number squared is: " + (favNumber*favNumber));
         System.out.println("* end of program *");
