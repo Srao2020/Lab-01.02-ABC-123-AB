@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Simple input output math program using the Scanner class
+ * Simple input output math program.
  * @version 10.03.2022
  * @author Srao2020
  */
