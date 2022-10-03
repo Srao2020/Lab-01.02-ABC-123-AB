@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8949b88-886b-43d3-a4a6-73f72504ba91" name="Changes" comment="2nd Lab APCS">
+      <change afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringArgsProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleIOMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleIOMath.java" afterDir="false" />
     </list>
@@ -36,7 +38,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleIOMath">
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
+      <module name="Lab 01.02 ABC-123 AB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleIOMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleIOMath" />
       <module name="Lab 01.02 ABC-123 AB" />
@@ -44,9 +53,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringArgsProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringArgsProcessor" />
+      <module name="Lab 01.02 ABC-123 AB" />
+      <option name="PROGRAM_PARAMETERS" value="IV IX XII VII CD CM MCMLXII" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hangman" />
+      <item itemvalue="Application.SimpleIOMath" />
+      <item itemvalue="Application.StringArgsProcessor" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SimpleIOMath" />
+        <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.StringArgsProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -61,7 +85,11 @@
       <workItem from="1664291517519" duration="6879000" />
       <workItem from="1664465890078" duration="1838000" />
       <workItem from="1664468278527" duration="5000" />
-      <workItem from="1664468286462" duration="3591000" />
+      <workItem from="1664468286462" duration="5057000" />
+      <workItem from="1664801539410" duration="726000" />
+      <workItem from="1664803257544" duration="1598000" />
+      <workItem from="1664820862052" duration="1031000" />
+      <workItem from="1664839875733" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="2nd Lab APCS">
       <created>1664468255195</created>
@@ -98,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664494383612</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2nd Lab APCS">
+      <created>1664799612186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664799612186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

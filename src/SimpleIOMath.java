@@ -4,6 +4,7 @@ import java.util.Scanner;
  * Simple input output math program.
  * @version 10.03.2022
  * @author Srao2020
+ * This is my extra: If your type in 52 as the age, it prints out a little extra.
  */
 public class SimpleIOMath {
     private String name;
@@ -15,6 +16,7 @@ public class SimpleIOMath {
         //age = 0;
         //favNumber = 0;
     //}
+
 
     /**
      * Asking the user for some information.
@@ -28,6 +30,12 @@ public class SimpleIOMath {
         name = in.nextLine();
         System.out.print("Question 2: How old are you? ");
         age = in.nextInt();
+
+        if (age == 52) {
+            System.out.println("What is Forrest Gump’s email password?\n" +
+                    "1forrest1.\n" + "I know amazing joke");
+        }
+
         System.out.print("Question 3: What is your favorite number? ");
         favNumber = in.nextInt();
         System.out.println("I'm gonna teach you how to sing it out");
@@ -47,8 +55,11 @@ public class SimpleIOMath {
         System.out.println("The first prime factor of " + age + " is: " + smallestPrimeFactor(age));
         System.out.println("Your favorite number is: " + favNumber);
         System.out.println("Your favorite number squared is: " + (favNumber*favNumber));
+        //System.out.println(favNumber + "squared" + (int)(Math.pow(favNumber, 2));
+        //Could also use this to square the number
         System.out.println("* end of program *");
     }
+
 
     private boolean isPrime(int num) {
         for(int i = 2; i <= Math.sqrt(num); i++) {
