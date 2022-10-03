@@ -17,7 +17,7 @@ public class SimpleIOMath {
     //}
 
     /**
-     * Asking the user for some information
+     * Asking the user for some information.
      */
 
     public void promptUser() {
@@ -38,7 +38,7 @@ public class SimpleIOMath {
     }
 
     /**
-     * Reprinting the info the user supplied the program
+     * Reprinting the info the user supplied the program.
      */
     public void printInfo() {
         System.out.println("Your name is: " + name);
@@ -70,7 +70,7 @@ public class SimpleIOMath {
 
     /**
      * Main method for SimpleIOMath
-     * @param args command line arguments, if needed
+     * @param args command line arguments, if needed.
      */
     public static void main(String[] args) {
         SimpleIOMath prod = new SimpleIOMath();

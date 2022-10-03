@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b8949b88-886b-43d3-a4a6-73f72504ba91" name="Changes" comment="2nd Lab APCS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleIOMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleIOMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <workItem from="1664291517519" duration="6879000" />
       <workItem from="1664465890078" duration="1838000" />
       <workItem from="1664468278527" duration="5000" />
-      <workItem from="1664468286462" duration="2206000" />
+      <workItem from="1664468286462" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="2nd Lab APCS">
       <created>1664468255195</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664476169176</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2nd Lab APCS">
+      <created>1664494383612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664494383612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
